@@ -2,11 +2,6 @@ import java.io.*;
 
 public class Sales_Tax_Java {
     public static void main(String[] args) {
-    //     // System.out.println("Hello World!");
-    // File file = new File("input_file.txt");
-    // Scanner input = new Scanner(file);
-    // System.out.println(2);
-    //
 
         // The name of the file to open.
         String fileName = "input_file.txt";
@@ -29,6 +24,10 @@ public class Sales_Tax_Java {
 
             // Always close files.
             bufferedReader.close();
+        }
+        catch(Exception ex)
+        {
+            System.out.println("a bad thing happened");
         }
     }
 }
